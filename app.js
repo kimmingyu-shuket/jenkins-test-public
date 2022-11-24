@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 console.log("push test");
 console.log("push test2");
+console.log("push test3");
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
