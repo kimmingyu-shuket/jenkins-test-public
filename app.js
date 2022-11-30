@@ -26,6 +26,7 @@ console.log("push test4");
 console.log("push test5");
 console.log("push test6");
 console.log("push test7");
+console.log("push test8");
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
