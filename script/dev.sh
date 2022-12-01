@@ -2,3 +2,4 @@
 
 echo "dev.sh print test"
 echo "dev.sh print test2"
+echo "dev.sh print test3"
