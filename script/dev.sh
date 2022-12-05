@@ -1,6 +1,6 @@
 #!/bin/bash 
 
 echo "dev.sh print test"
-echo "dev.sh print test2"
-echo "dev.sh print test3"
-echo "dev.sh print test4"
+echo "dev.sh copy test"
+cp -r /var/lib/jenkins/workspace/CICD_TEST /var/www/CICD_TEST
+cd /var/www
